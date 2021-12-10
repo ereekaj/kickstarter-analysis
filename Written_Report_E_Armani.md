@@ -14,14 +14,14 @@ To start my analysis, I created a new column called "Years" and used the `YEAR()
 
 ### Analysis of Outcomes Based on Goals
 I continued my analysis in the [Kickstarter_Challenge.xlxs](https://github.com/ereekaj/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx) document under the "Outcomes Based on Goals" tab by creating a new chart with the following columns:
-    - Goal
-    - Number Successful
-    - Number Failed 
-    - Number Canceled
-    - Total Projects
-    - Percentage Successful
-    - Percentage Failed
-    - Percentage Canceled
+- Goal
+- Number Successful
+- Number Failed 
+- Number Canceled
+- Total Projects
+- Percentage Successful
+- Percentage Failed
+- Percentage Canceled
     
 Under the "Goal" column, I created various dollar ranges to group the Goals into 12 rows from "Less than 1000" all the way up to "Greater than 50000". I then used the `COUNTIFS()` function on the "Outcomes" column in the Kickstarter tab to populate a count of plays that fit into each of the "Number Successful", "Number Failed", and "Number Canceled" columns in each row. I then calculated the sum of Total Projects and calculated the percentage of successful, failed and canceled projects for each row. Lastly, I created a line graph below to visualize this new data. 
 ![Outcomes Based on Goal](https://github.com/ereekaj/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)   
