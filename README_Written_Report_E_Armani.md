@@ -12,7 +12,7 @@ The purpose of this project to is analyze the kickstarter data from the [Kicksta
 To start my analysis, I created a new column called "Years" and used the `YEAR()` function to extract the Year from the "Date Created Conversion" column. I then created the following pivot chart from the Kickstarter data using a filter based on the columns "Parent Category" and "Years". I used "Outcomes" for the columns and "Date Created Conversion" for the Rows to show the count of "outcomes" in the pivot chart.  
 ![Pivot Table](https://github.com/ereekaj/kickstarter-analysis/blob/main/Resources/PivotTable.png)
 
-I then filtered the columns to only show "successful", "failed" and "canceled" campaigns. I also filtered the rows to show the results by month to get the pivot table contained in the document [Kickstarter_Challenge.xlsx](https://github.com/ereekaj/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx) under the "Theater Outcomes by Launch Date" tab. This pivot table was used to create a line graph below to visualize the relationship between the campaign outcomes and the month they were launched.
+I then filtered the columns to only show "successful", "failed" and "canceled" campaigns. I also filtered the rows to show the results by month. This pivot table was used to create a line graph below to visualize the relationship between the campaign outcomes and the month they were launched.
 ![Theater Outcomes Based on Launch Date](https://github.com/ereekaj/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png) 
 
 ### Analysis of Outcomes Based on Goals
