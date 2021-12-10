@@ -23,7 +23,7 @@ Under the "Goal" column, I created various dollar ranges to group the Goals into
 ![Outcomes Based on Goal](https://github.com/ereekaj/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)   
 
 ### Challenges and Difficulties Encountered
-I did not encounter many challenges. I know excel pretty well and have worked with it in the past. I was a little rusty using it, but was able to get over that pretty quickly by going through the various exercises in BootCampSpot.  I did make a mistake analyzing the outcomes based on goals initially.  I first used the wrong column from kickstarter to make my calculations. I used the "Pledged" column instead of the "Goals" column. When my results and my line graph were way off from the example in the instructions, I re-evualated all of the inputs in the `COUNTIFS()` functions I used and discovered the error.  
+I did not encounter many challenges. I know excel pretty well and have worked with it in the past. I was a little rusty using it, but was able to get over that pretty quickly by going through the various exercises in BootCampSpot.  I did make a mistake analyzing the outcomes based on goals initially.  I first used the wrong column from kickstarter to make my calculations. I used the "Pledged" column instead of the "Goals" column. When my results and my line graph were way off from the example in the instructions, I re-evaulated all of the inputs in the `COUNTIFS()` functions I used and discovered the error.  
 
 ## Results
 
